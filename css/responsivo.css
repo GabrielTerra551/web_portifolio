@@ -1,0 +1,82 @@
+@media screen and (max-width:1024px){   
+	.navbar{
+		position: relative;
+	}
+	
+	.logo{
+		margin: 0;
+		text-align: center;
+	}
+	.header{
+		padding-top: 50px;
+
+	}
+	.headline{
+		flex: 100%;
+		margin-right: 5%;
+		text-align: center;
+	}
+	
+	.headline p{
+		text-align: center;
+	}
+	.img-headline{
+		flex: 100%;
+		padding: 5%;
+		text-align: center;
+	}
+	.card{
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	body {
+	  font-size: 14px;
+	}
+  
+	.navbar {
+	  height: 80px;
+	}
+  
+	.logo {
+	  font-size: 30px;
+	}
+  
+	.headline {
+		display: none;
+	  } 
+
+  
+	.img-headline {
+	  margin-right: 0;
+	  flex: 100%;
+	}
+  
+	section {
+	  margin-top: 40px;
+	  padding: 2%;
+	}
+  
+	section h2 {
+	  font-size: 40px;
+	}
+  
+	.card {
+	  width: 100%;
+	  margin: 2% 0;
+	}
+  
+	.buttom {
+	  margin: 30px;
+	  height: 80px;
+	}
+  
+	footer {
+	  margin-top: 50px;
+	  height: 300px;
+	}
+  
+	.logo-rodape h1 {
+	  font-size: 30px;
+	}
+  }
