@@ -93,7 +93,7 @@ section h2 {
 	box-sizing: border-box;
 	width: 30%;
 	padding: 20px;
-	margin: 1%;
+	margin: 2%;
 	border: 1px solid #5b5bcd;
 	border-radius: 10px;
 	cursor: default;
@@ -103,9 +103,14 @@ section h2 {
 .card:hover {
 	background-color: #5b5bcd;
 	color: white;
-	/* padding: 21px; */
+
 }
 
+.servico:hover {
+	/* background-color: aqua; */
+	padding: 19.7px;
+	/* font-size: 15px; */
+}
 
 .projects {
 	display: flex;
@@ -115,6 +120,10 @@ section h2 {
 .project {
 	color: gray;
 	cursor: pointer;
+}
+
+.project:hover {
+	padding: 15px;
 }
 
 .buttom {
