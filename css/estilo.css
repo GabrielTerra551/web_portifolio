@@ -106,11 +106,6 @@ section h2 {
 
 }
 
-.servico:hover {
-	/* background-color: aqua; */
-	padding: 19.7px;
-	/* font-size: 15px; */
-}
 
 .projects {
 	display: flex;
@@ -122,9 +117,6 @@ section h2 {
 	cursor: pointer;
 }
 
-.project:hover {
-	padding: 15px;
-}
 
 .buttom {
 	margin: 50px;
